@@ -1,0 +1,79 @@
+.navbar-brand{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+html body{
+    background-image: url("flight.jpg");
+    color: #ffffff;
+    background-repeat: no-repeat;
+    background-size: auto;
+    text-align: center;
+}
+.input-box{
+    background-color: #021037;
+    opacity: 0.6;
+    margin-bottom: 5%;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    padding: 20px;
+    width: 90%;
+
+}
+.output-box{
+    margin: auto;
+    background-color: #021037;
+    opacity: 0.8;
+    margin-bottom: 5%;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+    width: 20%;
+}
+.box-title{
+    font-size: larger;
+    padding-bottom: 5px;
+}
+
+.input-form{
+    width:70%
+}
+
+.btn{
+    margin-top: 30px;
+}
+
+footer {
+    color: rgb(0, 0, 0);
+    position: fixed;
+    left:0;
+    right:0;
+    bottom: 0;
+    margin-bottom: 15px!important;
+  }
+
+ @media screen and (max-width: 576px){
+    .input-box {
+        width: 80%;
+    
+    }
+    .output-box{
+        width: 80%;
+    }
+    /* .my-row{
+        flex-direction: column;
+    } */
+
+} 
+/* 
+@media screen and (min-width: 576px){
+    .my-row{
+        flex-direction: row;
+        display: flex;
+        justify-content: center;
+    }
+} 
+
+.my-row{
+    width:70%;
+    display: flex;
+    justify-content: center;
+} */
